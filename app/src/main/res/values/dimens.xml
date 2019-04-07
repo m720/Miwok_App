@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_list_Item_height">88dp</dimen>
+    <dimen name="main_list_Item_padding_vertical">16dp</dimen>
+    <dimen name="main_list_Item_padding_horizontal">16dp</dimen>
+    <dimen name="main_list_Item_margin_horizontal">16dp</dimen>
+    <dimen name="main_list_Item_margin_vertical">16dp</dimen>
+
+
+</resources>

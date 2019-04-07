@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Main_Style">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_list_Item_height</item>
+        <item name="android:layout_marginHorizontal">@dimen/main_list_Item_margin_horizontal</item>
+
+
+    </style>
+
+</resources>
