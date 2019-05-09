@@ -6,6 +6,9 @@ public class Word {
     private String English; //the English Word
     private int mImageID= noImage;  // setting the Default value to -1 so if there is no image provided the it stays -1
     private static int noImage= -1;
+    private int audioID ;
+
+
 
     //default constructor
     public Word(){}
@@ -15,10 +18,16 @@ public class Word {
         Miwok = miwok;
         English = english;
     }
-    public Word( String english , String miwok, int id) {
+    public Word( String english , String miwok,int audio) {
+        Miwok = miwok;
+        English = english;
+        audioID= audio;
+    }
+    public Word( String english , String miwok, int id ,int audio) {
         Miwok = miwok;
         English = english;
         mImageID = id;
+        audioID = audio;
     }
 
     //getters & setters
@@ -33,6 +42,10 @@ public class Word {
     public String getEnglish() {
         return English;
     }
+
+    public int getAudioID() {return audioID;    }
+
+    public void setAudioID(int audioID) {this.audioID = audioID; }
 
     public void setEnglish(String english) {
         English = english;

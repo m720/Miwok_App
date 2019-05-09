@@ -9,6 +9,7 @@
         android:id="@+id/family_ListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:drawSelectorOnTop="true"
 
         />
 </android.support.constraint.ConstraintLayout>

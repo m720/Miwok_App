@@ -16,7 +16,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android2:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,33 +37,49 @@
 
             <LinearLayout
                 android:id="@+id/words_layout"
-                android:layout_width="317dp"
-                android:layout_height="88dp"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:paddingLeft="16dp">
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0">
 
-                <TextView
-                    android:id="@+id/Miok_word"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_gravity="bottom"
+                <LinearLayout
+                    android:layout_width="277dp"
+                    android:layout_height="88dp"
                     android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="lutti"
-                    android:textColor="#ffff"
-                    android:textStyle="bold" />
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp">
 
-                <TextView
-                    android:id="@+id/English_word"
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_gravity="top"
-                    android:layout_weight="1"
-                    android:text="one"
-                    android:textColor="#ffff" />
+                    <TextView
+                        android:id="@+id/Miok_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="lutti"
+                        android:textColor="#ffff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/English_word"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="top"
+                        android:layout_weight="1"
+                        android:text="one"
+                        android:textColor="#ffff" />
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="16dp"
+                    app:srcCompat="@drawable/baseline_play_arrow_white_24dp" />
+
             </LinearLayout>
-        </LinearLayout>
+
+              </LinearLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

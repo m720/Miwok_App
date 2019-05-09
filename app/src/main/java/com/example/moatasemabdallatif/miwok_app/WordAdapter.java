@@ -18,11 +18,12 @@ import java.util.ArrayList;
 public class WordAdapter extends ArrayAdapter {
 
     private int cat; // int variable to contain the Color
-    //parametrized Coinstructor
+    //parametrized Constructor
     public WordAdapter(@NonNull Context context, ArrayList <Word> resource, int category) {
         super(context, 0,resource);
         cat = category;
     }
+
 
 
     @NonNull
